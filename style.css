@@ -152,6 +152,11 @@ h3{
     100%{top: 25%;}
 }
 
+#button2{
+    position: absolute;
+    top: 395px;
+}
+
 /* Animation 3 */
 
 #animation3{
@@ -212,6 +217,14 @@ h3{
     border-radius: 50%;
 }
 
+#button3{
+    position: absolute;
+    top: 395px;
+    left: 698px;
+}
+
+/* Animation 4 */
+
 #animation4{
     width: 300px;
     height: 300px;
@@ -246,4 +259,10 @@ h3{
 @keyframes centerring{
     0%{ transform: rotate(0deg);}
     100%{ transform: rotate(360deg);}
+}
+
+#button4{
+    position: absolute;
+    top: 395px;
+    left: 1027px;
 }
