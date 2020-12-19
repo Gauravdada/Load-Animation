@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 20%;
+    border: 2px solid black;
+    background-color: black;
+    text-align: center;
+}
+h1{
+    color: chartreuse;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h3{
+    color: cornsilk;
+}
+/* Animation 1 */
+
+#animation1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: blanchedalmond;
+}
+
+#outer{
+    margin: 33% 31%; 
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: #ffd300;
+    animation-name: outer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#inner{
+    border: 1px solid black;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    top: 25px;
+    background-color: 	#98FB98;
+    animation-name: inner;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes outer{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes inner{
+    0% {transform: rotate(360deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+/* Animation 2 */
+
+#animation2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: cornsilk;
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    background-color: rgb(235, 208, 54);
+    border-radius: 50%;
+    border:solid black 1px;
+    display: inline-block;
+    position: relative;
+  }
+
+.dot:nth-child(1){
+    animation: dot1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 400ms;
+}
+.dot:nth-child(2){
+    animation: dot2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 300ms;
+}
+.dot:nth-child(3){
+    animation: dot3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+}
+.dot:nth-child(4){
+    animation: dot4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 100ms;
+}
+.dot:nth-child(5){
+    animation: dot5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dot1{
+    0%{top: 25%;}
+    50%{top: 75%;background-color: rgb(240, 65, 65);}
+    100%{top: 25%;}
+}
+
+@keyframes dot2{
+    0%{top: 25%;}
+    50%{top: 75%;  background-color: rgb(240, 65, 65);}
+    100%{top: 25%;}
+}
+
+@keyframes dot3{
+    0%{top: 25%;}
+    50%{top: 75%;background-color: rgb(240, 65, 65);}
+    100%{top: 25%;}
+}
+
+@keyframes dot4{
+    0%{top: 25%;}
+    50%{top: 75%;background-color: rgb(240, 65, 65);}
+    100%{top: 25%;}
+}
+
+@keyframes dot5{
+    0%{top: 25%;}
+    50%{top: 75%;background-color: rgb(240, 65, 65);}
+    100%{top: 25%;}
+}
+
+/* Animation 3 */
+
+#animation3{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #240299;
+}
+
+.loader{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: loader 0.5s linear infinite;
+}
+
+@keyframes loader{
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+}
+.loader span{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+}
+
+.loader span:nth-child(1){
+    filter: blur(5px);
+}
+
+.loader span:nth-child(2){
+    filter: blur(10px);
+}
+
+.loader span:nth-child(3){
+    filter: blur(25px);
+}
+
+.loader span:nth-child(4){
+    filter: blur(50px);
+}
+
+.loader:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #240299;
+    border-radius: 50%;
+}
+
+#animation4{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: cornsilk;
+}
+
+.center{
+    position: absolute;
+    top: 143px;
+    left: 1075px;
+}
+
+.ring{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 0 #262626;
+    background: transparent;
+    animation: centerring 1s linear infinite ;
+}
+
+.innerring{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0 #262626;
+    background: transparent;
+    animation: centerring 1s linear infinite ;
+}
+
+@keyframes centerring{
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+}
