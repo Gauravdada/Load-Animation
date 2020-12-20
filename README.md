@@ -7,10 +7,10 @@
 > 3. Rotating VIBGYOR Animation
 > 4. Minimal Rotate Animation
 
-![](GIFs/ani1.gif)
-![](GIFs/ani2.gif)
-![](GIFs/ani3.gif)
-![](GIFs/ani4.gif)
+![](gif/ani1.gif)
+![](gif/ani2.gif)
+![](gif/ani3.gif)
+![](gif/ani4.gif)
 ## Getting Started
 
 ##### How/where to download your program
