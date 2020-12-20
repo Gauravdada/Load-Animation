@@ -1,4 +1,4 @@
-# Loading Animation
+# [Loading Animation](https://gauravdada.github.io/Load-Animation/)
 ## 4 different loading animation
 
 ## Description
