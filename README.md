@@ -3,7 +3,7 @@
 
 ## Description
 > 1. Rotating Square Animation
-![](gif/ani1.gif)
+![](ani1.gif)
 > 2. Snake Pattern Animation
 > 3. Rotating VIBGYOR Animation
 > 4. Minimal Rotate Animation
