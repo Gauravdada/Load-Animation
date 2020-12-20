@@ -3,11 +3,14 @@
 
 ## Description
 > 1. Rotating Square Animation
-![](ani1.gif)
 > 2. Snake Pattern Animation
 > 3. Rotating VIBGYOR Animation
 > 4. Minimal Rotate Animation
 
+![](GIFs/ani1.gif)
+![](GIFs/ani2.gif)
+![](GIFs/ani3.gif)
+![](GIFs/ani4.gif)
 ## Getting Started
 
 ##### How/where to download your program
